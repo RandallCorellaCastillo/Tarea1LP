@@ -1,0 +1,89 @@
+/* Estilos para el encabezado */
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative; /* Agregar posición relativa al encabezado */
+}
+
+
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos para el contenido principal */
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+    text-align: center; /* Centrar contenido en la página */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Altura del viewport */
+    position: relative;
+
+    background-image: url('Preguntados.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Cubrir todo el contenido del fondo */
+    background-position: center center; /* Centrar la imagen de fondo */
+
+}
+
+
+
+/* Estilos para los botones */
+button {
+
+    font-size: 45px;
+    font-family: "Open Sans"; 
+    font-weight: bold; /* Aumentar el grosor de las letras */
+
+    padding: 10px 20px;
+    background-color: darkorange; /* Naranja más intenso */
+    color: white; /* Cambiar el color de la fuente */
+    border: none;
+    border-radius: 20px; /* Bordes redondos */
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+
+    width: 400px; /* Ancho del botón */
+    height: 100px;
+
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transición suave */
+
+}
+
+
+button:hover {
+    background-color: #ffad33; /* Cambio de color en el hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Efecto de sombra en el hover */
+}
+
+
+
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
